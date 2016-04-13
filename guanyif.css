@@ -1,0 +1,275 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, section, time, article, figure, hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+  
+@font-face {
+    font-family: 'HelveticaCE';
+    src: url('font/Helvetica CE Regular.ttf.eot');
+    src: url('font/Helvetica CE Regular.ttf.eot?#iefix') format('embedded-opentype'),
+          url('font/Helvetica CE Regular.ttf.ttf') format('truetype'),
+          url('font/Helvetica CE Regular.ttf.svg#HelveticaCE') format('svg');}
+
+@font-face {
+    font-family: 'HelveticaCEBold';
+    src: url('font/Helvetica CE Bold.ttf.eot');
+    src: url('font/Helvetica CE Bold.ttf.eot?#iefix') format('embedded-opentype'),
+          url('font/Helvetica CE Bold.ttf.ttf') format('truetype'),
+          url('font/Helvetica CE Bold.ttf.svg#HelveticaCEBold') format('svg');}
+  
+
+@font-face {
+    font-family: 'Wisdom';
+    src: url('font/wisdom_script-webfont.eot');
+    src: url('font/wisdom_script-webfont.eot?#iefix') format('embedded-opentype'),
+          url('font/wisdom_script-webfont.ttf') format('truetype'),
+          url('font/wisdom_script-webfont.svg#Wisdom') format('svg');}
+
+#header_center{
+  padding-right:60px;  
+}
+
+.button{
+ -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px; 
+margin:0 4px;
+width:70px;
+}
+.button h1{
+  text-align: center;
+}
+
+.introbutton{
+ -moz-border-radius: 30px;
+-webkit-border-radius: 30px;
+border-radius: 30px; 
+
+}
+.menu-button{
+ -moz-border-radius: 30px;
+-webkit-border-radius: 30px;
+border-radius: 30px; 
+
+}
+
+input{outline:none} 
+ul{ list-style:none; }
+
+a{text-decoration:none; }
+
+  
+body{
+ background:#FFFFFF;  overflow:auto;}
+
+h1{font-family:"HelveticaCEBold";  margin:0px; } 
+
+h2{font-family:"HelveticaCE";  margin:0px;}
+
+h2 a{ text-decoration:underline; color:#959695; -webkit-transition:color 0.3s linear; transition:color 0.3s linear;}
+
+h2 a:hover{color:#FFFFFF; -webkit-transition:color 0.3s linear; transition:color 0.3s linear;}
+
+.center{width:1080px; margin:0px auto; overflow:hidden;} 
+
+
+
+ 
+.navi{width:100%; margin:0px auto; overflow:hidden;}
+
+
+.pagelistcontainer{width:100%; padding-top:100px; padding-bottom:100px;}
+
+
+
+.logocontainer{width:300px; height:100px;float:left; overflow:hidden;padding-left: 5%;}
+
+.logoname{float:left; color:#4A5265; font-size:36px; margin-top:12px; margin-left:15px;}
+
+.button{padding:13px 25px; color:#FFFFFF; background:#4A5265; float:right; font-size:16px; margin-top:10px;}
+
+
+.selfintro{color:#FFFFFF; font-size:25px;}
+
+.skillbox{width:150px; height:300px; text-align:center; float:left; margin-right:290px;}
+
+
+
+.skilldes{color:#FFFFFF; font-size:16px;}
+
+
+.introbutton{text-align:center; width:230px; height:40px; background:#FFFFFF; margin-top:-125px; position:absolute; color:#4A5265; line-height:40px; font-size:20px; margin-left:400px; }
+.menu-button{text-align:center; width:230px; height:40px; background:#FFFFFF; margin-top:-50px; position:absolute; color:#4A5265; line-height:40px; font-size:20px; z-index:9999;}
+
+.projectbox{width:230px; z-index:500;height:200px; float:left; margin-left:70px;}
+
+.projectpic{width:230px;}
+
+.projectintro{width:224px;height:70px;border-left:6px solid #DD3F3E; color:#4A5265; padding:0px 10px; margin-top:0px;opacity:0;z-index:501;}
+
+.contactinfo{color:#FFFFFF; font-size:20px; float:left;  width:450px; color:#F49090 }
+
+
+.contactinfo2{text-align:right; width:400px; margin-left:50px; float:left; color:#FFFFFF; font-size:20px;}
+
+#projectsection a{
+	margin-right:30px;
+	float:left;
+	margin-bottom:40px;
+}
+.projecttitle{float:left;}
+
+.projectgoback{float:right; color:#5E687C; font-size:16px; margin-top:6px; text-decoration:none;}
+.projectgoback h2 a {float:right; color:#5E687C; font-size:16px; margin-top:6px; text-decoration:none;}
+
+.projectintrobox{float:left; width:450px; }
+
+.projectlabel{color:#FFFFFF; font-size:16px; margin-top:20px;}
+
+
+.projectbigpic{float:left; width:100%;  margin-top:50px;}
+
+.projectpictitle{width:90%; border-left:6px solid #DD3F3E; float:left;  margin-top:15px;  color:#999999; padding:0px 10px; }
+
+
+.quicklinkbox{float:left; width:300px; text-align:center;  color:#5AA5CD; font-size:15px; margin-top:20px; line-height:32px; }
+
+.quicklinkbox a{color:#5AA5CD;}
+
+.quicklinkbox a:hover{ text-decoration:underline;}
+
+
+
+.quicklinktitle{border-top:1px dashed #999999; text-align:center; padding-top:20px; float:left; width:100%; margin-top:50px; color:#999999 }
+
+
+.authorlink{ text-decoration:underline; color:#CCCCCC; -webkit-transition:color 0.3s linear; transition:color 0.3s linear;}
+
+h2 a:hover{color:#FFFFFF; -webkit-transition:color 0.3s linear; transition:color 0.3s linear;}
+
+#welcome-banner{padding:70px 0;}
+.moreprojectbox{
+width:100%;
+
+
+}
+.moreprojectbox img{
+width:auto;
+height:90px;
+padding:5px 1px;
+}
+
+
+@media all and (max-width: 1079px) and (min-width: 960px) {
+
+  .center{
+    width:960px;
+  }
+  .introbutton{
+    margin-left: 340px;
+  }
+  .projectbox{width:260px;}
+
+  .projectpic{width:260px;}
+
+  .projectintro{width:224px;}
+  #projectsection a{
+    margin-right: 50px;
+  }
+  .skillbox{
+    margin-right: 200px;
+  }
+}
+@media all and (max-width: 959px) and (min-width: 768px) {
+  .center{
+    width:768px;
+  }
+  .introbutton{
+    margin-left: 244px;
+  }
+
+  .projectbox{width:220px;}
+
+  .projectpic{width:220px;}
+
+  .projectintro{width:214px;}
+  #projectsection a{
+    margin-right: 25px
+  }
+  .skillbox{
+    margin-right:130px;
+  }
+  .socailmedialist{
+  }
+  .contactinfo{
+    width: 100%;
+  }
+  .contactinfo2{
+    margin-top: 20px;
+    text-align:left;
+    margin-left:0;
+  }
+}
+@media all and (max-width: 767px) and (min-width: 480px) {
+  .center{
+    width:480px;
+  }
+  .introbutton{
+    margin-left: 100px;
+  }
+  .projectbox{width:210px;}
+
+  .projectpic{width:210px;}
+
+  .projectintro{width:194px;}
+  #projectsection a{
+    margin-right: 20px
+  }
+  .skillbox{
+    margin-left: 140px;
+  }
+}
+
+@media all and (max-width: 479px) {
+  .center{
+    width:320px;
+  }
+  .introbutton{
+    margin-left: 20px;
+  }
+  .projectbox{width:250px;}
+
+  .projectpic{width:250px;}
+
+  .projectintro{width:204px;}
+  #projectsection a{
+    margin-right: 20px;
+    margin-bottom:10px;
+  }
+  .skillbox{
+    margin-left: 70px;
+  }
+  .socailmedialist{
+    display: none;
+  }
+  .contactinfo{
+    width: 100%;
+  }
+  .contactinfo2{
+    text-align:left;
+    margin-left:0;
+  }
+}
